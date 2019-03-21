@@ -3,21 +3,18 @@
 This package contains a collection of functions to
 extract systematic and statistical uncertainties 
 from entries in the EXFOR database.
-
 It also contains functions to derive (in lack of 
 a better word) uncertainties from those present
-in EXFOr subentries. Namely, inconsistent 
+in EXFOR subentries. Namely, inconsistent 
 uncertainty specifications are penalized by the
-introduction of extra uncertainty and conservative
+introduction of an extra uncertainty and conservative
 assumptions are made about missing uncertainties.
 
 The assessment of uncertainties of nuclear experiments
 is a non-trivial undertaking and hence the functions
-for the automatic construction and correction of 
-uncertainties should be seen as a first blueprint 
-and are likely to change in the future.
-
-## General notes
+in this package for the automatic construction and 
+correction of uncertainties should be seen as a first
+blueprint and are likely to change in the future.
 
 This package operates on nested lists representing 
 EXFOR subentries.
