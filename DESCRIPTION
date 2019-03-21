@@ -1,0 +1,14 @@
+Package: exforUncertainty
+Type: Package
+Title: Extracting Uncertainty Information from EXFOR Subentries
+Version: 0.1.0
+Date: 2019-03-21
+Author: Georg Schnabel 
+Maintainer: Georg Schnabel <georg.schnabel@nucleardata.com>
+Description: This package contains functions to extract
+    systematic and statistical uncertainties from EXFOR entries.
+License: GPL (>= 3)
+URL: https://www.r-project.org, https://github.com/gschnabel/exforUncertainty
+Encoding: UTF-8
+LaydData: true
+RoxygenNote: 6.0.1
