@@ -23,5 +23,5 @@ the R package [exforParser](https://github.com/gschnabel/exforParser)
 can be used to convert EXFOR entries given in text format to
 nested lists. Specifically, first the function `parseEntry`
 can be applied and subsequently the function `transformSubent`.
-See the repo for [createExforDb](https://github.com/gschnabel/createExforDb)
+See the repo [createExforDb](https://github.com/gschnabel/createExforDb)
 for an example of this conversion.
