@@ -14,14 +14,14 @@ The assessment of uncertainties of nuclear experiments
 is a non-trivial undertaking and hence the functions
 in this package for the automatic construction and 
 correction of uncertainties should be seen as a first
-blueprint and are likely to change in the future.
+attempt and are likely subject to change in the future.
 
 This package operates on nested lists representing 
 EXFOR subentries.
-To obtain the nested list of correct structure,
+To obtain nested lists of correct structure,
 the R package [exforParser](https://github.com/gschnabel/exforParser)
-has been used to convert EXFOR given in text format to
+can be used to convert EXFOR entries given in text format to
 nested lists. Specifically, first the function `parseEntry`
-has been applied and subsequently the function `transformSubent`.
+can be applied and subsequently the function `transformSubent`.
 See the repo for [createExforDb](https://github.com/gschnabel/createExforDb)
 for an example of this conversion.
