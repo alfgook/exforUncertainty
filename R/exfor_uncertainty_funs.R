@@ -20,6 +20,7 @@
 # recipe: introduce all ERR-x uncertainties as fully correlated uncertainties, except ERR-S
 # if there is a remainder to ERR-T, add the difference as an additional uncorrelated error contribution
 
+datatable.aware = TRUE
 
 #' Check if EXFOR subentry has valid uncertainty info
 #' 
